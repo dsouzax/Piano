@@ -20,7 +20,28 @@ body {
   font-size: 50px;
   color: #ffffff;
 }
+button {
+  background-color: #f0f0f0; 
+  color: rgb(0, 0, 0); 
+  padding: 10px 20px; 
+  text-align: center; 
+  text-decoration: none; 
+  display: inline-block; 
+  font-size: 16px; 
+  margin: 20px 2px; 
+  cursor: pointer; 
+  border: none; 
+  border-radius: 4px; 
+  transition-duration: 0.4s; 
+}
+button img {
+  vertical-align: middle; 
+  margin-right: 5px; 
+}
 
+button:hover {
+  background-color: #d6d6d6; 
+}
 header h2 {
   font-size: 1.6rem;
 }
